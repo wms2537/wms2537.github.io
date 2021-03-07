@@ -1,0 +1,239 @@
+<div class="header">
+  <h1>My Projects</h1>
+  <h3>This is a list of my projects. Open source projects are available at my github repo.</h3>
+</div>
+
+
+<div class="content">
+  <br>
+  <hr>
+  <div class="card">
+    <h2>CHKL APP</h2>
+    <ul>
+      <li>Mobile and Web APP for Chong Hwa Independent High School Kuala Lumpur</li>
+      <li>Upgraded version of CHKL Zoom Attendance</li>
+      <li>For teachers to take attendance of online classes.</li>
+      <li>For students to apply leave online based on missed lessons</li>
+      <li>For discipline department to verify students leave and monitor students attendance.</li>
+      <li>Still adding more features to digitalise tasks in the school.</li>
+      <li>Video on the way...</li>
+    </ul>
+    <h4>Jan 2021 - Current</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of chklApp">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>Face Recognition Visitor Management Access Control System</h2>
+    <ul>
+      <li>Distributed AI Face Recognition access control system for residents, hotels, or offices.</li>
+      <li>Related Projects:
+        <ul>
+          <li><a href="https://github.com/wms2537/esp32cam-websockets-stream">esp32cam-websockets-stream</a></li>
+          <li><a href="https://github.com/wms2537/esp32s2-camera">ESP32S2 Camera</a></li>
+        </ul>
+      </li>
+      <li>Winner of APICTA Awards 2020</li>
+      <li>Special thanks to Toh Li Yuan for the help.</li>
+    </ul>
+    <h4>March 2020 - Current</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of frvmacs">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>WM Scanner</h2>
+    <ul>
+      <li>A simple document scanner app</li>
+      <li>Available in <a href="https://apps.apple.com/my/app/wm-scanner/id1549155551">App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.wmtech.wmscanner">Google play store</a> </li>
+    </ul>
+    <h4>Jan 2021</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top" nz>
+        <div nz-carousel-content *ngFor="let index of wmscanner">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>CHKL Zoom Attendance</h2>
+    <ul>
+      <li>Designed for CHKL for online attendance taking from zoom chat during COVID-19 MCO period.</li>
+      <li>Quick and efficient way to take attendance on zoom online classes when there are a lot of students.</li>
+    </ul>
+    <h4>June 2020 - December 2020</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of chklZoomAttendance">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>Driver Drowsiness Detection System</h2>
+    <ul>
+      <li>A device in vehicles to alert drowsy drivers</li>
+      <li>A monitoring mobile app</li>
+      <li>APICTA National Awards 2019 Merit</li>
+      <li>APICTA International Awards 2019 Merit</li>
+      <li>KLESF 2019 Bronze award</li>
+      <li>Young Founders Summit 2019 semi-finals</li>
+    </ul>
+    <h4>June 2019 - Dec 2019</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of ddds">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>Dolphins Detection System</h2>
+    <ul>
+      <li>An app to detect and crop dolphins to study them.</li>
+      <li>Dolphins can be identified by the pattern on their dorsal fins.</li>
+      <li>Designed for <a href="http://marecet.org/">MareCet</a></li>
+      <li>3rd place in the ACCCIM STI competition 2019</li>
+    </ul>
+    <h4>June 2019 - Dec 2019</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of dds">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>SPARTA App</h2>
+    <ul>
+      <li>Urban argricutulture app with instructions and social media to share own plants.</li>
+      <li>Semi-finals of the Digital Ninja Competition organised by Malaysia Digital Economy Coperation(MDEC)</li>
+    </ul>
+    <h4>July 2019 - September 2019</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of sparta">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>RGB LED Cube</h2>
+    <ul>
+      <li>16*16*16 RGB LED Cube with a GUI to design patterns https://led-cube.firebaseapp.com</li>
+      <li>Designed for the opening ceremony of the 15th National Independent Schools Science Camp 第十五届全国独中科学营</li>
+    </ul>
+    <h4>May 2019 - Jun 2019</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of ledCube">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>Face Recognition Identification System</h2>
+    <ul>
+      <li>A Face Recogniiton Attendance System</li>
+      <li>Young Innovators Challenge 2018 silver medal</li>
+      <li>KLESF 2018 Bronze Medal</li>
+      <li>Invited to Ricoh Empowering Digital Workplaces Exhibition</li>
+      <li>Invited to Wild Digital Conference 2019</li>
+    </ul>
+    <h4>June 2018 - Dec 2019</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of fris">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>LED Badges</h2>
+    <ul>
+      <li>DIY LED Badges to sell at school charity sale.</li>
+      <li>Sold 250 badges in 3 hours.</li>
+    </ul>
+    <h4>Dec 2017 - May 2018</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of ledBadges">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+</div>

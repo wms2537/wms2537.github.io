@@ -1,0 +1,22 @@
+[nz-carousel-content] {
+  text-align: center;
+  height: 600px;
+  background: #364d79;
+  color: #fff;
+  overflow: hidden;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+video {
+  height: 100%;
+  margin: auto;
+}
+
+img {
+  height: 100%;
+  margin: auto;
+}
