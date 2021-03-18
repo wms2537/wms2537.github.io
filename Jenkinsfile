@@ -2,9 +2,7 @@ pipeline {
   environment {
     GH_TOKEN = credentials('GITHUB_PAGES_TOKEN')
   }
-  agent {
-    docker { image 'node:stretch' }
-  }
+  agent { dockerfile true }
   stages {
     stage('Install') {
       steps {
