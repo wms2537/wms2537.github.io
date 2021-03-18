@@ -5,7 +5,7 @@ pipeline {
       steps {
         withCredentials([string(credentialsId: 'GITHUB_PAGES_TOKEN', variable: 'GH_TOKEN')]){
           sh 'npm install'
-          sh "export GH_TOKEN=$GH_TOKEN"
+          sh 'export GH_TOKEN="$GH_TOKEN"'
         }
       }
     }
