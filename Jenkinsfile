@@ -1,13 +1,12 @@
 pipeline {
-  environment {
-    GH_TOKEN = credentials('GITHUB_PAGES_TOKEN')
-  }
   agent { dockerfile true }
   stages {
     stage('Install') {
       steps {
-        sh 'npm install'
-        sh "export GH_TOKEN=${GH_TOKEN}"
+        withCredentials([string(credentialsId: 'GITHUB_PAGES_TOKEN', variable: 'GH_TOKEN')]){
+          sh 'npm install'
+          sh "export GH_TOKEN=$GH_TOKEN"
+        }
       }
     }
 
