@@ -1,6 +1,6 @@
 <div class="header">
   <h1>My Projects</h1>
-  <h3>This is a list of my projects. Open source projects are available at my github repo.</h3>
+  <h3>This is a list of my projects. Open source projects are available at <a href="https://github.com/wms2537/">my github repo</a>.</h3>
 </div>
 
 
@@ -15,12 +15,12 @@
       <li>For teachers to take attendance of online classes.</li>
       <li>For students to apply leave online based on missed lessons</li>
       <li>For discipline department to verify students leave and monitor students attendance.</li>
+      <li>For discipline department to record merit-demerits of students.</li>
       <li>Still adding more features to digitalise tasks in the school.</li>
-      <li>Video on the way...</li>
     </ul>
     <h4>Jan 2021 - Current</h4>
     <div class="images">
-      <nz-carousel nzDotPosition="top">
+      <nz-carousel nzDotPosition="top" nzAutoPlay>
         <div nz-carousel-content *ngFor="let index of chklApp">
           <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
           <video *ngIf="index.type === mediaType.Video" controls muted>
@@ -69,7 +69,7 @@
     </ul>
     <h4>Jan 2021</h4>
     <div class="images">
-      <nz-carousel nzDotPosition="top" nz>
+      <nz-carousel nzDotPosition="top" nzAutoPlay>
         <div nz-carousel-content *ngFor="let index of wmscanner">
           <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
           <video *ngIf="index.type === mediaType.Video" controls muted>

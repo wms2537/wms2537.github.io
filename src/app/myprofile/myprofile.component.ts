@@ -12,7 +12,13 @@ enum MediaType{
 })
 export class MyprofileComponent {
   chklApp:{type: MediaType, url: String}[] = [
-    { type: MediaType.Video, url: "https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app.mp4"}
+    { type: MediaType.Video, url: "https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app.mp4"},
+    { type: MediaType.Image, url: "https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_1.png" },
+    { type: MediaType.Image, url: "https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_2.png" },
+    { type: MediaType.Image, url: "https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_3.png" },
+    { type: MediaType.Image, url: "https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_4.png" },
+    { type: MediaType.Image, url: "https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_5.png" },
+    { type: MediaType.Image, url: "https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_6.png" }
   ];
 
   frvmacs: { type: MediaType, url: String; }[] = [
