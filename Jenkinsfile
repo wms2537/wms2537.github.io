@@ -26,7 +26,7 @@ pipeline {
     }
 
     stage('Deploy') {
-      steps { sh 'npm run deploy -- --name="wms2537" --email=swmeng@yes.my' }
+      steps { sh 'npm run deploy -- --repo=https://github.com/wms2537/wmms2537.github.io.git --name="wms2537" --email=swmeng@yes.my' }
     }
   }
 }
