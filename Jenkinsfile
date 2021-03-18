@@ -7,6 +7,7 @@ pipeline {
     stage('Install') {
       steps {
         sh 'npm install'
+        sh "export GH_TOKEN=${GH_TOKEN}"
       }
     }
 
