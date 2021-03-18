@@ -16,17 +16,17 @@ pipeline {
           steps { sh 'npm lint' }
         }
         stage('Unit tests') {
-          steps { sh 'npm test --code-coverage' }
+          steps { sh 'npm test -- --code-coverage' }
         }
       }
     }
 
     stage('Build') {
-      steps { sh 'npm build --prod' }
+      steps { sh 'npm build -- --prod' }
     }
 
     stage('Deploy') {
-      steps { sh 'npm run deploy --no-silent' }
+      steps { sh 'npm run deploy' }
     }
   }
 }
