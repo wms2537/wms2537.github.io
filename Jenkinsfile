@@ -25,7 +25,8 @@ pipeline {
     stage('Deploy') {
       steps { 
           withCredentials([string(credentialsId: 'GITHUB_PAGES_TOKEN', variable: 'GH_TOKEN')]) {
-            sh 'npm run deploy -- --repo=https://x-access-token:"$GH_TOKEN"@github.com/wms2537/wmms2537.github.io.git --name="wms2537" --email=swmeng@yes.my' 
+            sh 'export GH_TOKEN="$GH_TOKEN"'
+            sh 'npm run deploy -- --repo=https://github.com/wms2537/wmms2537.github.io.git --name="wms2537" --email=swmeng@yes.my' 
           }
         }
     }
