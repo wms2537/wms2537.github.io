@@ -13,20 +13,20 @@ pipeline {
     stage('Test') {
       parallel {
         stage('Static code analysis') {
-          steps { sh 'ng lint' }
+          steps { sh 'npm lint' }
         }
         stage('Unit tests') {
-          steps { sh 'ng test --code-coverage' }
+          steps { sh 'npm test --code-coverage' }
         }
       }
     }
 
     stage('Build') {
-      steps { sh 'npm run build' }
+      steps { sh 'npm run build --prod' }
     }
 
     stage('Deploy') {
-      steps { sh 'ng deploy' }
+      steps { sh 'npm deploy' }
     }
   }
 }
