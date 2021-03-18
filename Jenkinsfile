@@ -26,7 +26,7 @@ pipeline {
     }
 
     stage('Deploy') {
-      steps { sh 'npm run deploy' }
+      steps { sh 'npm run deploy --no-silent' }
     }
   }
 }
