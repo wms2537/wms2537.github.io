@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-enum MediaType{
+enum MediaType {
   Video,
   Image,
 }
@@ -11,8 +11,8 @@ enum MediaType{
   styleUrls: ['./myprofile.component.css']
 })
 export class MyprofileComponent {
-  chklApp:{type: MediaType, url: string}[] = [
-    { type: MediaType.Video, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app.mp4'},
+  chklApp: { type: MediaType, url: string; }[] = [
+    { type: MediaType.Video, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app.mp4' },
     { type: MediaType.Image, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_1.png' },
     { type: MediaType.Image, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_2.png' },
     { type: MediaType.Image, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_3.png' },
@@ -23,7 +23,7 @@ export class MyprofileComponent {
 
   frvmacs: { type: MediaType, url: string; }[] = [
     { type: MediaType.Video, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/fracs.MP4' },
-    { type: MediaType.Image, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/MSC%20Malaysia%20APICTA%202020%20Awards%20Winner_Face%20Recognition%20Access%20Control%20System.jpg'}
+    { type: MediaType.Image, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/MSC%20Malaysia%20APICTA%202020%20Awards%20Winner_Face%20Recognition%20Access%20Control%20System.jpg' }
   ];
 
   wmscanner: { type: MediaType, url: string; }[] = [
