@@ -1,4 +1,7 @@
 pipeline {
+  triggers {
+    pollSCM('') // Enabling being build on Push
+  }
   agent { dockerfile true }
   stages {
     stage('Install') {
