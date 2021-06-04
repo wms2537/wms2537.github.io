@@ -12,9 +12,6 @@ pipeline {
 
     stage('Test') {
       parallel {
-        stage('Static code analysis') {
-          steps { sh 'npm lint' }
-        }
         stage('Unit tests') {
           steps { sh 'npm test -- --code-coverage' }
         }
