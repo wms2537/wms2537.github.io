@@ -1,7 +1,7 @@
 # My Achievements
-* This is a list of achievements from 2016 till now, last updated 04-06-2021.
+* This is a list of achievements from 2016 till now, updated regularly.
 * Github profile：https://github.com/wms2537
-* My projects：https://wms2537.github.io
+* My projects：https://wms2537.github.io/projects
 
 ## Table of Contents
 - [My Achievements](#my-achievements)

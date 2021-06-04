@@ -4,9 +4,10 @@ import { MyachievementsComponent } from './myachievements/myachievements.compone
 import { MyprofileComponent } from './myprofile/myprofile.component';
 
 export const routes: Routes = [
-    { path: '', pathMatch: 'full', redirectTo: '/achievements' },
+    { path: '', pathMatch: 'full', redirectTo: '/projects' },
     { path: 'projects', component: MyprofileComponent },
     { path: 'achievements', component: MyachievementsComponent },
+    { path: 'achievements/:id', component: MyachievementsComponent },
 ];
 
 @NgModule({
