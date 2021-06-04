@@ -13,13 +13,13 @@ pipeline {
     stage('Test') {
       parallel {
         stage('Unit tests') {
-          steps { sh 'npm test -- --code-coverage' }
+          steps { sh 'npm run test -- --code-coverage' }
         }
       }
     }
 
     stage('Build') {
-      steps { sh 'npm build -- --prod' }
+      steps { sh 'npm run build -- --prod' }
     }
 
     stage('Deploy') {
