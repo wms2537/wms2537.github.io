@@ -20,7 +20,7 @@ import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 import { MyprofileComponent } from './myprofile/myprofile.component';
 import { MyachievementsComponent } from './myachievements/myachievements.component';
 import { AppRoutingModule } from './app-routing.module';
-import { MarkdownModule } from 'ngx-markdown';
+import { ShowdownModule } from 'ngx-showdown';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,7 @@ import { MarkdownModule } from 'ngx-markdown';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MarkdownModule.forRoot(),
+    ShowdownModule,
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
