@@ -4,14 +4,20 @@
       <h1>WMS2537</h1>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="horizontal">
-      <!-- <li nz-menu-item>nav 1</li>
-      <li nz-menu-item>nav 2</li>
-      <li nz-menu-item>nav 3</li> -->
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="/projects"></a>
+        Projects
+      </li>
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="/achievements"></a>
+        Achievements
+      </li>
+      <!-- <li nz-menu-item>nav 3</li> -->
     </ul>
   </nz-header>
   <nz-content>
     <div class="inner-content">
-      <app-myprofile></app-myprofile>
+      <router-outlet></router-outlet>
     </div>
   </nz-content>
   <nz-footer>©2021 By wms2537 swmeng@yes.my</nz-footer>

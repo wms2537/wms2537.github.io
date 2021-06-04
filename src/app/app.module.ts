@@ -18,14 +18,20 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 
 import { MyprofileComponent } from './myprofile/myprofile.component';
+import { MyachievementsComponent } from './myachievements/myachievements.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyprofileComponent
+    MyprofileComponent,
+    MyachievementsComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
+    MarkdownModule.forRoot(),
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
