@@ -11,6 +11,17 @@ enum MediaType {
   styleUrls: ['./myprofile.component.css']
 })
 export class MyprofileComponent {
+  beautifood: { type: MediaType, url: string; }[] = [
+    { type: MediaType.Video, url: 'https://bafybeibqqticrg3boxvp2nlay3us75odohihd73suvl7aamio5ocohefnm.ipfs.w3s.link/Beautifood_ver1.mp4' },
+  ];
+  jomfi: { type: MediaType, url: string; }[] = [
+    { type: MediaType.Video, url: 'https://bafybeibqqticrg3boxvp2nlay3us75odohihd73suvl7aamio5ocohefnm.ipfs.w3s.link/Beautifood_ver1.mp4' },
+  ];
+  chklApp2: { type: MediaType, url: string; }[] = [
+    { type: MediaType.Video, url: 'https://bafybeickbpedu52fuwr7tjbnda6m36ubvuta7zw62wknpzwe6xsx4vpntu.ipfs.w3s.link/ebf60779-c6c1-472b-9c10-e432db976ee2.MP4' },
+    { type: MediaType.Video, url: 'https://bafybeihjcztdcblpj7sqtlgmphgbwqbowwqgqcheb7tbfvbr3lzukuaspi.ipfs.w3s.link/cf221328-9c7d-44d1-8b12-86eeb951ad42.MP4' },
+    { type: MediaType.Video, url: 'https://bafybeickyjij2ohu466drtvjgmin7kfce7hdyka75opqjewlhwfqrffsie.ipfs.w3s.link/de4c3366-0783-4ce6-bc64-8204671bbc26.MP4' },
+  ];
   chklApp: { type: MediaType, url: string; }[] = [
     { type: MediaType.Video, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app.mp4' },
     { type: MediaType.Image, url: 'https://wmprofile.oss-cn-hongkong.aliyuncs.com/chkl_app_1.png' },

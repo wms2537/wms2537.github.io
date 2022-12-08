@@ -9,7 +9,75 @@
   <br>
   <hr>
   <div class="card">
-    <h2>CHKL APP</h2>
+    <h2>Beautifood (JomLuz)</h2>
+    <ul>
+      <li>A system to digitalise restaurants.</li>
+      <li>QR code ordering.</li>
+      <li>Integrated POS system.</li>
+      <li>Group Order Sessions.</li>
+      <li>Piloting in restaurants.</li>
+      <li><a href="https://app.beautifood.io">https://app.beautifood.io</a></li>
+    </ul>
+    <h4>June 2022 - current</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of beautifood">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>JomFi (JomLuz)</h2>
+    <ul>
+      <li>A personal finance management app.</li>
+      <li>Record your transactions.</li>
+      <li>Create budgets.</li>
+      <li>Finance Utilities.</li>
+      <li>Share your journal with friends.</li>
+      <li><a href="https://jomfi.jomluz.com">https://jomfi.jomluz.com</a></li>
+    </ul>
+    <h4>June 2022 - current</h4>
+    <iframe
+      src="https://docs.google.com/presentation/d/e/2PACX-1vS6nYRqdfpNyPqrfQpb1373aJjKYG6IRetvo9gzKxnMS8h1b0hFnncTlBy-FWhX_B4-53gQA4R6V-YU/embed?start=false&loop=true&delayms=3000"
+      frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
+      webkitallowfullscreen="true"></iframe>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>CHKL APP V2</h2>
+    <ul>
+      <li>Mobile and Web APP developed Chong Hwa Independent High School Kuala Lumpur.</li>
+      <li>Upgraded version of CHKL APP V1.</li>
+      <li>Improved UI/UX.</li>
+      <li>More features added, such as physical class attendance taking, official leave application, and much more.</li>
+      <li>Makes collaboration between departments easier and more efficient.</li>
+      <li>Due to some circumstances, the school decided to return to the old way to take attendance until a new system is built by the school IT Team to replace this.</li>
+    </ul>
+    <h4>Jan 2022 - July 2022</h4>
+    <div class="images">
+      <nz-carousel nzDotPosition="top">
+        <div nz-carousel-content *ngFor="let index of chklApp2">
+          <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
+          <video *ngIf="index.type === mediaType.Video" controls muted>
+            <source [src]="index.url" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="card">
+    <h2>CHKL APP V1</h2>
     <ul>
       <li>Mobile and Web APP developed voluntarily for Chong Hwa Independent High School Kuala Lumpur.</li>
       <li>Upgraded version of CHKL Zoom Attendance.</li>
@@ -21,9 +89,9 @@
       <li>Attendance taking with "Attendance Code" during seminars, talks and online assembly.</li>
       <li>Still adding more features to digitalise tasks in the school.</li>
     </ul>
-    <h4>Jan 2021 - Current</h4>
+    <h4>Jan 2021 - Dec 2021</h4>
     <div class="images">
-      <nz-carousel nzDotPosition="top" nzAutoPlay>
+      <nz-carousel nzDotPosition="top">
         <div nz-carousel-content *ngFor="let index of chklApp">
           <img *ngIf="index.type === mediaType.Image" [src]="index.url" alt="">
           <video *ngIf="index.type === mediaType.Video" controls muted>
