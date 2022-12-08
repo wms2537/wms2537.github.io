@@ -1,0 +1,79 @@
+Skills
+2019.09 Flutter and Dart to Build iOS and Android Apps
+2019.12 Angular Web Development
+2020.01 Pyimagesearch Gurus Computer Vision Course
+2020.04 NodeJS Backend Development
+2020.04 MongoDB Database
+2020.10 Docker and Kubernetes
+2020.11 Operate and Manage a Cloud Server (Alicloud)
+CI/CD Pipelines (Jenkins, Travis, etc)
+Python Programming
+C/C++ Programming
+MXNet Deep Learning
+Embedded Systems (STM32, ESP32, Arduino, etc)
+PCB Design
+3D Printing & Design
+
+Awards
+The list below is last updated at 2021.08. The most updated list can be found in my profile website https://wms2537.github.io/achievements.
+Asia Pacific ICT Awards (Malaysia) 2020 Winner, National Level, Asia Pacific ICT Alliance & PIKOM, 2020
+Asia Pacific ICT Awards (International) 2019 Merit, International Level, Asia Pacific ICT Alliance, 2019
+Asia Pacific ICT Awards (Malaysia) 2019 Merit,  National Level, Asia Pacific ICT Alliance & PIKOM, 2019
+Malaysia Young Digital Hero, National Level, Malaysia Digital Economy Coporation, 2019
+Kuala Lumpur Science Engineering Fair (KLESF) 2019 Bronze Medal, National Level, Tunku Abdul Rahman University, 2019
+Young Innovators Challenge (State Level) 2019 Gold Award, State Level, Chumbaka, 2019
+ACCCIM Science Technology Innovation Competition (中华总商会全国独中科技发明比赛) 2019 3rd Place, National Level, Associated Chinese Chambers of Commerce and Inductry of Malaysia, 2019
+Outstanding Performance in Science and Technology (特殊贡献奖) 2019, School Level, Chong Hwa Independent High School Kuala Lumpur, 2019
+Young Innovators Challenge 2018 Excellence Award (Top15), National Level, Chumbaka & Yayasan Sime Darby, 2018
+Young Innovators Challenge 2018 Silver Award, State Level, Chumbaka & Yayasan Sime Darby, 2018 
+Kuala Lumpur Science Engineering Fair (KLESF) 2018 Bronze Medal, National Level, Tunku Abdul Rahman University, 2018
+MDEC Battle of Digital Ninja 2017 3rd Place, National Level, Malaysia Digital Economy Coporation (MDEC), 2017
+UNIMY Tech Battle 2020 Gold Medal, National Level, University Malaysia of Computer Science and Engineering, 2020
+Chen Jing-Run's Cup Secondary School Mathematics Competition 2020 31st place, National Level, Xiamen University Malaysia, 2020
+Chen Jing-Run's Cup Secondary School Mathematics Competition 2019 14st place, National Level, Xiamen University Malaysia, 2029
+Chen Jing-Run's Cup Secondary School Mathematics Competition 2018 22st place, National Level, Xiamen University Malaysia, 2018
+Chen Jing-Run's Cup Secondary School Mathematics Competition 2017 11st place, National Level, Xiamen University Malaysia, 2017
+Hua Luo Geng Mathematics Competition Outstanding Award, National Level, Selangor and Kuala Lumpur Hokkien Association & New Era University College, 2018
+Depth Of Knowledge Assessment (DOKA) 2021 High Distinction, National Level, Depth of Knowledge Assessment, 2021
+Depth Of Knowledge Assessment (DOKA) 2020 High Distinction, National Level, Depth of Knowledge Assessment, 2020
+Depth Of Knowledge Assessment (DOKA) 2019 High Distinction, National Level, Depth of Knowledge Assessment, 2019
+Member of International Junior Honor Society (IJHS), International Level, International Scholastic Trust, 2018/19
+Singapore and Asian Schools Math Olympiad (SASMO) Gold Award, National Level, Singapore and Asian Schools Math Olympiad (SASMO), 2021
+Singapore and Asian Schools Math Olympiad (SASMO) Gold Award, National Level, Singapore and Asian Schools Math Olympiad (SASMO), 2020
+Singapore and Asian Schools Math Olympiad (SASMO) Gold Award, National Level, Singapore and Asian Schools Math Olympiad (SASMO), 2019
+Singapore and Asian Schools Math Olympiad (SASMO) Gold Award, National Level, Singapore and Asian Schools Math Olympiad (SASMO), 2018
+Singapore and Asian Schools Math Olympiad (SASMO) Gold Award, National Level, Singapore and Asian Schools Math Olympiad (SASMO), 2017
+Singapore and Asian Schools Math Olympiad (SASMO) Gold Award, National Level, Singapore and Asian Schools Math Olympiad (SASMO), 2016
+Australian Mathematics Competition (AMC) Distinction, National Level, Australian Mathematics Trust, 2018
+Australian Mathematics Competition (AMC) High Distinction, National Level, Australian Mathematics Trust, 2017
+Australian Mathematics Competition (AMC) High Distinction, National Level, Australian Mathematics Trust, 2016
+American Mathematics Olympiad (AMO) Gold Award, National Level, American Mathematics Olympiad, 2018
+American Mathematics Olympiad (AMO) Gold Award, National Level, American Mathematics Olympiad, 2017
+American Mathematics Olympiad (AMO) Gold Award, National Level, American Mathematics Olympiad, 2016
+American Mathematics Olympiad (AMO) Gold Award, National Level, American Mathematics Olympiad, 2015
+Asian Schools Math Olympiad (ASMO) Bronze Award, National Level, Asian Schools Math Olympiad, 2018
+Asian Schools Math Olympiad (ASMO) Gold Award, State Level, Asian Schools Math Olympiad, 2018
+Asian Schools Math Olympiad (ASMO) Bronze Award, State Level, Asian Schools Math Olympiad, 2017
+Kangaroo Math Compatition (KMC) Silver Award, National Level, Kangaroo Math Malaysia, 2020
+Kangaroo Math Compatition (KMC) Gold Medal, National Level, Kangaroo Math Malaysia, 2019
+Kangaroo Math Compatition (KMC) Gold Medal, National Level, Kangaroo Math Malaysia, 2018
+Kangaroo Math Compatition (KMC) Silver Medal, National Level, Kangaroo Math Malaysia, 2017
+National Mathematics Olympiad (OMK) Hounourable Mention, National Level, Malaysia Science and Mathematics Association, 2018
+National Mathematics Olympiad (OMK) Hounourable Mention, National Level, Malaysia Science and Mathematics Association, 2017
+Digital Campus International Robothon Excellence Award, International Level, Eduspec Holdings Berhad, 2016
+Digital Campus International Robothon Champion, International Level, Eduspec Holdings Berhad, 2015
+
+
+Activities
+The list below is last updated at 2021.08. The most updated list can be found in my profile website https://wms2537.github.io/projects.
+2020-2021 Developed several open source projects. More information can be found in my github repo (https://github.com/wms2537/).
+2021.01-2021.10 Developed a web and mobile application for Chong Hwa Independent High School Kuala Lumpur for recording attendance and leave application for online classes, and also recording students' merit and demerits. This project digitalised administration tasks of the school discipline department as school authorities can monitor and analyse students' attendance through this system. Parents can also check their children's attendance through this system.
+2020.03-2020.09 Developed a face recognition visitor management system (A distributed AI Face Recognition access control system for residents, hotels, or offices), winner of the APICTA Awards 2020.
+2021.01 Developed WMScanner, a simple document scanner app. Available in app store and google play store.
+2019.06-2019.12 Developed a Driver Drowsiness Detection System which alerts deiver once the camera detects drowsiness on his/her face. APICTA National Awards 2019 Merit, APICTA International Awards 2019 Merit, KLESF 2019 Bronze award, Young Founders Summit 2019 semi-finals.
+2019.03.2019.06 Developed a Dolphin Detection Software for MareCet (https://www.marecet.org/) to process dolphin images. 3rd place in the ACCCIM STI competition 2019
+2019.07-2019.09 Developed SpartaApp, an urban argriculture app with instructions on how to plant and social media to share own plants. Urban argriculture app with instructions and social media to share own plants. This app is developed during the Digital Ninja Programme organised by Malaysia Digital Economy Corporation (MDEC). It is developed to make farming approchable for urban residents.
+2019.05-2019.06 Created a 16*16*16 RGB LED Cube with my team for the opening ceremony 15th National Independent Schools Science Camp 第十五届全国独中科学营.
+2018.06-2019.03 Developed a face recognition identification system to take attendance in school. Young Innovators Challenge 2018 silver medal. KLESF 2018 Bronze Medal. Invited to Ricoh Empowering Digital Workplaces Exhibition. Invited to Wild Digital Conference 2019.
+2020.01-2020-12 Vice President of the school robotics club.
+2019.01-2019.12 Tresurer of the school robotics club.

@@ -20,7 +20,7 @@
   - [Young Innovators Challenge 2018](#young-innovators-challenge-2018)
   - [Kuala Lumpur Science Engineering Fair (KLESF) 2018](#kuala-lumpur-science-engineering-fair-klesf-2018)
   - [MDEC Battle of Digital Ninja 2017](#mdec-battle-of-digital-ninja-2017)
-  - [UNIMY Tech Battle  2020](#unimy-tech-battle--2020)
+  - [UNIMY Tech Battle 2020](#unimy-tech-battle-2020)
   - [Chen Jing-Run's Cup Secondary School Mathematics Competition 2020](#chen-jing-runs-cup-secondary-school-mathematics-competition-2020)
   - [Chen Jing-Run's Cup Secondary School Mathematics Competition 2019](#chen-jing-runs-cup-secondary-school-mathematics-competition-2019)
   - [Chen Jing-Run's Cup Secondary School Mathematics Competition 2018](#chen-jing-runs-cup-secondary-school-mathematics-competition-2018)
@@ -167,7 +167,7 @@
 
 ---
 
-## UNIMY Tech Battle  2020
+## UNIMY Tech Battle 2020
 * Award: Gold Medal
 
 
@@ -221,9 +221,10 @@
 ---
 
 ## Depth Of Knowledge Assessment (DOKA)
-* Award: High Distinction (2018), High Distinction (2019)
+* Award: High Distinction (2019), High Distinction (2020), High Distinction (2021)
 
 
+<img style='width: 45%;text-align:center' alt='doka2021' src='https://wmprofile.oss-cn-hongkong.aliyuncs.com/certificates/00002021doka.jpg'></img>
 <img style='width: 45%;text-align:center' alt='doka2020' src='https://wmprofile.oss-cn-hongkong.aliyuncs.com/certificates/00002020doka.jpg'></img>
 <img style='width: 45%;text-align:center' alt='doka2019' src='https://wmprofile.oss-cn-hongkong.aliyuncs.com/certificates/00002019doka.jpg'></img>
 
@@ -238,9 +239,10 @@
 ---
 
 ## Singapore and Asian Schools Math Olympiad (SASMO)
-* Award: Gold Award (2021) (Pending Certificate), Gold Award (2020), Gold Award (2019), Gold Award (2018), Gold Award (2017), Gold Award (2016)
+* Award: Gold Award (2021), Gold Award (2020), Gold Award (2019), Gold Award (2018), Gold Award (2017), Gold Award (2016)
 
 
+<img style='width: 45%;text-align:center' alt='sasmo2020' src='https://wmprofile.oss-cn-hongkong.aliyuncs.com/certificates/00002021sasmo.png'></img>
 <img style='width: 45%;text-align:center' alt='sasmo2020' src='https://wmprofile.oss-cn-hongkong.aliyuncs.com/certificates/00002020sasmo.jpg'></img>
 <img style='width: 45%;text-align:center' alt='sasmo2019' src='https://wmprofile.oss-cn-hongkong.aliyuncs.com/certificates/00002019sasmo.jpg'></img>
 <img style='width: 45%;text-align:center' alt='sasmo2018' src='https://wmprofile.oss-cn-hongkong.aliyuncs.com/certificates/00002018sasmo.jpg'></img>
